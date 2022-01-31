@@ -1,184 +1,63 @@
-Contribution: 2021-10-22 17:00
+![PyTeal logo](https://github.com/algorand/pyteal/blob/master/docs/pyteal.png?raw=true)
 
-Contribution: 2021-10-22 14:01
 
-Contribution: 2021-10-22 16:02
+# PyTeal: Algorand Smart Contracts in Python
 
-Contribution: 2021-10-22 14:03
+[![Build Status](https://travis-ci.com/algorand/pyteal.svg?branch=master)](https://travis-ci.com/algorand/pyteal)
+[![PyPI version](https://badge.fury.io/py/pyteal.svg)](https://badge.fury.io/py/pyteal)
+[![Documentation Status](https://readthedocs.org/projects/pyteal/badge/?version=latest)](https://pyteal.readthedocs.io/en/latest/?badge=latest)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-Contribution: 2021-10-22 14:04
+PyTeal is a Python language binding for [Algorand Smart Contracts (ASC1s)](https://developer.algorand.org/docs/features/asc1/). 
 
-Contribution: 2021-10-22 16:05
+Algorand Smart Contracts are implemented using a new language that is stack-based, 
+called [Transaction Execution Approval Language (TEAL)](https://developer.algorand.org/docs/features/asc1/teal/). 
 
-Contribution: 2021-10-22 18:06
+However, TEAL is essentially an assembly language. With PyTeal, developers can express smart contract logic purely using Python. 
+PyTeal provides high level, functional programming style abstractions over TEAL and does type checking at construction time.
 
-Contribution: 2021-10-24 15:00
+### Install 
 
-Contribution: 2021-10-24 18:01
+PyTeal requires Python version >= 3.6.
 
-Contribution: 2021-10-24 16:02
+#### Recommended: Install from PyPi
 
-Contribution: 2021-10-24 18:03
+Install the latest official release from PyPi:
 
-Contribution: 2021-10-24 18:04
+* `pip install pyteal`
 
-Contribution: 2021-10-24 18:05
+#### Install Latest Commit
 
-Contribution: 2021-10-24 17:06
+If needed, it's possible to install directly from the latest commit on master to use unreleased features:
 
-Contribution: 2021-10-24 17:07
+> **WARNING:** Unreleased code is experimental and may not be backwards compatible or function properly. Use extreme caution when installing PyTeal this way.
 
-Contribution: 2021-10-26 17:00
+* `pip install git+https://github.com/algorand/pyteal`
 
-Contribution: 2021-10-26 18:01
+### Documentation
 
-Contribution: 2021-10-26 14:02
+[PyTeal Docs](https://pyteal.readthedocs.io/)
 
-Contribution: 2021-10-26 14:03
+### Development Setup
 
-Contribution: 2021-10-27 15:00
+Setup venv (one time):
+ * `python3 -m venv venv`
 
-Contribution: 2021-10-27 17:01
+Active venv:
+ * `. venv/bin/activate` (if your shell is bash/zsh)
+ * `. venv/bin/activate.fish` (if your shell is fish)
 
-Contribution: 2021-10-27 14:02
+Pip install PyTeal in editable state
+ * `pip install -e .`
 
-Contribution: 2021-10-27 18:03
+Install dependencies:
+* `pip install -r requirements.txt`
+ 
+Type checking using mypy:
+* `mypy pyteal`
 
-Contribution: 2021-10-27 17:04
+Run tests:
+* `pytest`
 
-Contribution: 2021-10-27 18:05
-
-Contribution: 2021-10-27 18:06
-
-Contribution: 2021-10-28 16:00
-
-Contribution: 2021-10-28 15:01
-
-Contribution: 2021-10-28 14:02
-
-Contribution: 2021-10-28 16:03
-
-Contribution: 2021-10-28 16:04
-
-Contribution: 2021-10-28 17:05
-
-Contribution: 2021-10-28 16:06
-
-Contribution: 2021-10-28 18:07
-
-Contribution: 2021-10-28 18:08
-
-Contribution: 2021-10-31 16:00
-
-Contribution: 2021-10-31 14:01
-
-Contribution: 2021-10-31 17:02
-
-Contribution: 2021-10-31 17:03
-
-Contribution: 2021-10-31 15:04
-
-Contribution: 2021-10-31 18:05
-
-Contribution: 2021-10-31 17:06
-
-Contribution: 2021-11-08 15:00
-
-Contribution: 2021-11-09 16:00
-
-Contribution: 2021-11-09 17:01
-
-Contribution: 2021-11-10 17:00
-
-Contribution: 2021-11-10 16:01
-
-Contribution: 2021-11-10 15:02
-
-Contribution: 2021-11-10 14:03
-
-Contribution: 2021-11-10 15:04
-
-Contribution: 2021-11-10 18:05
-
-Contribution: 2021-11-14 17:00
-
-Contribution: 2021-11-14 15:01
-
-Contribution: 2021-11-14 17:02
-
-Contribution: 2021-11-16 17:00
-
-Contribution: 2021-11-16 18:01
-
-Contribution: 2021-11-16 18:02
-
-Contribution: 2021-11-16 18:03
-
-Contribution: 2021-11-16 17:04
-
-Contribution: 2021-11-18 18:00
-
-Contribution: 2021-11-18 16:01
-
-Contribution: 2021-11-18 15:02
-
-Contribution: 2021-11-19 17:00
-
-Contribution: 2021-11-21 16:00
-
-Contribution: 2021-11-25 18:00
-
-Contribution: 2021-11-25 16:01
-
-Contribution: 2021-11-25 15:02
-
-Contribution: 2021-11-25 16:03
-
-Contribution: 2021-11-25 15:04
-
-Contribution: 2021-11-25 18:05
-
-Contribution: 2021-11-25 17:06
-
-Contribution: 2021-11-25 14:07
-
-Contribution: 2021-11-25 18:08
-
-Contribution: 2021-11-25 17:09
-
-Contribution: 2021-11-27 17:00
-
-Contribution: 2021-11-27 15:01
-
-Contribution: 2021-11-27 17:02
-
-Contribution: 2021-11-27 16:03
-
-Contribution: 2021-11-27 17:04
-
-Contribution: 2021-11-27 18:05
-
-Contribution: 2021-11-27 18:06
-
-Contribution: 2021-11-27 18:07
-
-Contribution: 2021-11-29 15:00
-
-Contribution: 2021-11-29 14:01
-
-Contribution: 2021-11-29 14:02
-
-Contribution: 2021-11-29 18:03
-
-Contribution: 2021-11-29 14:04
-
-Contribution: 2021-11-29 16:05
-
-Contribution: 2021-11-29 16:06
-
-Contribution: 2021-11-29 17:07
-
-Contribution: 2021-11-29 15:08
-
-Contribution: 2021-11-29 16:09
-
+Format code:
+* `black .`
